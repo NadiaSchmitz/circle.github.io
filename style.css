@@ -1,0 +1,70 @@
+#container {
+    box-sizing: border-box;
+    height: calc(100vH);
+    font-family: Roboto;
+    background-color: #607d8b;
+    padding-top: calc((100vh - 510px) / 2);
+}
+
+.circle_wrapper {
+    width: 600px;
+    height: 450px;
+    color: #292424;
+    background-color: #ffffff;
+    border-radius: 1px;
+    margin: 0 auto;
+    padding: 30px;;
+}
+
+.circle_header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.circle_content {
+    
+}
+
+.circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+}
+
+.circle div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1px);
+    width: 2px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.number,
+.button {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+#line_number {
+    width: 120px;
+    outline: none;
+    margin: 0 0 0 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#start {
+    width: 120px;
+    height: 28px;
+    background: chocolate;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    outline: none;
+}
